@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>still daydreaming</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        header {
+            padding: 10px;
+        }
+        section {
+            padding: 15px;
+        }
+        div {
+            padding: 15px;
+        }
+        footer{
+            padding: 3px 0;
+        }
+        header {
+            background-color: #fae3e3;
+            color: #000000;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        section {
+            background-color: #fff;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #fff;
+        }
+        .hover-link {
+        color: black; /* Hide text by setting it transparent */
+        text-decoration: none; /* Remove underline */
+        }
+        .hover-link:hover {
+        color: inherit; /* Restore text color on hover */
+        text-decoration: underline; /* Underline text on hover */
+        }
+    </style>
+</head>
+<body>
+<header>
+    <a href="index.html" class="hover-link"><h1>Rogelio Guzman Cruzado</h1></a>
+</header>
+<section id="portfolio" class="container">
+    <p>During one of my 5th semester classes, we worked with a charity organization called BAMX that helps people in need by
+        providing them with food and other essential needs. We were tasked with making an app that would help them in some way.
+        My team and i decided to make an app that would help the organization better keep track of food deliveries and donations,
+        while also giving volunteer workers a companion app that would help them track their deliveries and report them.
+    </p>
+</section>
+<div class="image-container">
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/_eB8HA38Cf0" title="RED BAMX DEMO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<section id="portfolio" class="container">
+    <p>Here you can find a demo of the app we made for the organization, it was made by using Swift and Xcode, we used Firebase to host
+        our real-time database. I worked mainly in the back end of the site, creating the main functionality of delivery assignment, report creation, admin and volunteer user differences
+        and pretty much everything related with the logic of the app. My team mainly worked with the authentication system and with the design of the application.
+    </p>
+</section>
+<section id="portfolio" class="container">
+    <h2>Play with this app</h2>
+    <p>Here you can find the main repository we used to work on the app, feel free to check it out and see the way we coded this app.
+    </p>
+    <ul>
+        <li><a href="https://github.com/santidlr/tc2007b-reto-banco">Foodbank companion</a></li>
+    </ul>
+</section>
+</body>
+</html>
